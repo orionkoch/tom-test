@@ -1,0 +1,76 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "kmYyGcscjG9wCXk9MUjFsA",
+      "projectApiToken": "jjubKtZhMuFH4bkzmkmiiMM3FbTV6B8Wx5RTFoEoAXWnlmqCkZclI8eAqqF76vQkkhWa5llDaJB895Q",
+      "projectName": "tom-test",
+      "version": "latest",
+      "cssFilePath": "plasmic/tom_test/plasmic_tom_test.module.css",
+      "components": [
+        {
+          "id": "qBSaMuN2yVSA",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "kmYyGcscjG9wCXk9MUjFsA",
+          "renderModuleFilePath": "plasmic/tom_test/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/tom_test/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "Z05DCMBsfa",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "J-jxd1l1HV",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Q25furu-dnMn1",
+        "name": "Screen",
+        "projectId": "kmYyGcscjG9wCXk9MUjFsA",
+        "contextFilePath": "plasmic/tom_test/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.211",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.211/dist/plasmic.schema.json"
+}
